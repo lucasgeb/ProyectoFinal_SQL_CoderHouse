@@ -1,0 +1,11 @@
+Para la correcta instalación de la base de datos (BD) se debe ingresar a la carpeta "Códigos de ejecución" y luego ejecutar los archivos con los scripts correspondientes en el orden que se detalla a continuacón.-
+
+01_Creacion_tablas : En este paso, se creará la BD y todas las tablas correspondientes bajo el nombre "schema: copa_libertadores".
+02_Creacion_triggers : En este paso, se crean las tablas de auditoria y triggers necesarios.
+03_Insercion_datos : Con la ejecución de este código, se completaran con información las tablas anterioremente creadas.
+04_Creacion_funciones : Una vez que tenemos información, ejecutamos este código para crear las funciones planteadas.
+05_Creacion_procedimientos : Con este script se crea un listado de procedimientos
+06_Creacion_vistas : Ejecutando este código se obtendran distintas vistas de la BD
+07_DCL_scripts : En este paso se generan usuarios y se les asigna permisos de acuerdo a lo requerido. 
+08_TCL_scripts : Script necesario para visualizar distintas sentencias de modificacion a alguna de las tablas del proyecto.
+09_backup_240224 : Script que contiene un backup del dia 24/02/2024. Puede importarse dentro de MySQL Workbench para obtener esa BD
